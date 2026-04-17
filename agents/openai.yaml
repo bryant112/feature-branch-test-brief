@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Branch Test Brief"
+  short_description: "Generate branch test briefs and PDFs."
+  default_prompt: "Create a feature-branch testing brief with status, testing targets, TODO/TODONTS/TODONE/TOCANTS, and a printable PDF."
