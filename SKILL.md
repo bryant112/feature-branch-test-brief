@@ -16,7 +16,7 @@ Create a short, operator-friendly testing brief for the current project or featu
 5. Produce both:
    - a Markdown source file
    - a printable HTML file
-6. When the user asks for a PDF, render the HTML to PDF with `scripts/render-html-to-pdf.ps1`.
+6. When the user asks for a PDF, render the HTML to PDF with `scripts/render-html-to-pdf.sh` on WSL/Linux or `scripts/render-html-to-pdf.ps1` on Windows.
 
 ## Required Sections
 
@@ -58,13 +58,19 @@ Adjust numbering to match the project's existing docs convention.
 
 ## PDF Rendering
 
-Use `scripts/render-html-to-pdf.ps1` with:
+Use `scripts/render-html-to-pdf.sh` on WSL/Linux:
+
+```bash
+bash <skill-root>/scripts/render-html-to-pdf.sh --html-path <html-file> --pdf-path <pdf-file>
+```
+
+Windows fallback:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File <skill-root>\scripts\render-html-to-pdf.ps1 -HtmlPath <html-file> -PdfPath <pdf-file>
 ```
 
-The script will auto-detect Edge or Chrome.
+The scripts will auto-detect Chrome, Chromium, or Edge.
 
 ## Reference
 
