@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csdevkit",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-containers",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "dbaeumer.vscode-eslint"
+  ]
+}

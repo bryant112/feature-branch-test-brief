@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev:start",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh start"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:build",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:test",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh test"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:lint",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh lint"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:deploy",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh deploy"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "git:pull",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh git-pull"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "git:push",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "./scripts/dev-toolbar.sh git-push"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
